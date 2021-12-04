@@ -42,5 +42,40 @@ const dataQuiz = [
         c:'California',
         d:'New Jersey',
         correct: 'd'
+    }, {
+        question: "What was Raj's father's profession?",
+        a: "Orthodontist",
+        b: "Dentist",
+        c: "Pediatrist",
+        d: "Gynecologist",
+        correct: "d"
+    }, {
+        question: 'In which season Sheldon propose to Amy after being kissed by former olympic swimmer, Dr. Ramona Nowitzki?',
+        a: 'Season 10',
+        b: 'Season 8',
+        c: 'Season 7',
+        d: 'Season 11',
+        correct: 'a'
+    }, {
+        question: 'How many doctorates does Sheldon Cooper have?',
+        a: 'Five',
+        b: 'Three',
+        c: 'One',
+        d: 'Two',
+        correct: 'd'
+    }, {
+        question: 'At what age did Sheldon Coopper receive a doctorate?',
+        a: 'Eleven years old',
+        b: 'Sixteen years old',
+        c: 'Twenty one years old',
+        d: 'Eighteen years old',
+        correct: 'b'
+    }, {
+        question: 'How many biological siblings does Sheldon have?',
+        a: '1 sibling',
+        b: '3 siblings',
+        c: '4 siblings',
+        d: '2 siblings',
+        correct: 'd'
     }
 ]
