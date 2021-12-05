@@ -79,3 +79,26 @@ const dataQuiz = [
         correct: 'd'
     }
 ]
+
+const questionElement = document.getElementById('quizQuestion');
+const a_answer = document.getElementById('a_answer');
+const b_answer = document.getElementById('b_answer');
+const c_answer = document.getElementById('c_answer');
+const d_answer = document.getElementById('d_answer');
+
+let currentQuiz = 0;
+
+loadQuiz();
+
+function loadQuiz(){
+    const currentQuizData = dataQuiz[currentQuiz];
+
+    questionElement.innerText = currentQuizData.question;
+    
+    a_answer.innerText = currentQuizData.a;
+    b_answer.innerText = currentQuizData.b;
+    c_answer.innerText = currentQuizData.c;
+    d_answer.innerText = currentQuizData.d;
+
+    currentQuestion++
+}

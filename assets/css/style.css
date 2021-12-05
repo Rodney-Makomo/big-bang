@@ -11,6 +11,7 @@ body{
     justify-content: center;
 }
 
+/*Quiz container styling*/
 .quiz-container{
     background-color: #fff;
     border-radius: 7.5px;
@@ -20,8 +21,12 @@ body{
     overflow: hidden;
 }
 
+h2{
+    margin: 0;
+}
+
 .quiz-body{
-    padding: 5px;
+    padding: 3rem;
 }
 
 ul{
@@ -29,6 +34,12 @@ ul{
     padding: 0;
 }
 
+ul li{
+    margin: 16px 0;
+    font-size: 1rem;
+}
+
+/*Submit button styling*/
 #submit-button{
     color: #fff;
     background-color: #ab0020;
@@ -36,5 +47,11 @@ ul{
     width: 100%;
     padding: 4px;
     font-family: inherit;
-    font-size: 22px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+}
+
+#submit-button:hover{
+    background-color: #52000f;
 }
