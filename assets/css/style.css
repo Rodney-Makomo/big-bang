@@ -4,5 +4,37 @@
 /*Body styling*/
 body{
     font-family: Lora, sans-serif;
+    background-color: #b2beb5;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.quiz-container{
+    background-color: #fff;
+    border-radius: 7.5px;
+    box-shadow: 0 0 5px 5px rgb(153, 150, 150);
+    width: 600px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-body{
+    padding: 5px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#submit-button{
+    color: #fff;
+    background-color: #ab0020;
+    display: block;
+    width: 100%;
+    padding: 4px;
+    font-family: inherit;
+    font-size: 22px;
+}
