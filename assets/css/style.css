@@ -1,0 +1,8 @@
+/*Google font import*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*Body styling*/
+body{
+    font-family: Lora, sans-serif;
+}
+
