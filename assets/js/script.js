@@ -80,13 +80,18 @@ const dataQuiz = [
     }
 ]
 
+const quiz = document.getElementById('quiz');
+const quizAns = document.querySelectorAll('.answer');
 const questionElement = document.getElementById('quizQuestion');
 const a_answer = document.getElementById('a_answer');
 const b_answer = document.getElementById('b_answer');
 const c_answer = document.getElementById('c_answer');
 const d_answer = document.getElementById('d_answer');
+const submitButton = document.getElementById('submit-button');
 
 let currentQuiz = 0;
+// scoretracker
+let score = 0;
 
 loadQuiz();
 
@@ -100,5 +105,13 @@ function loadQuiz(){
     c_answer.innerText = currentQuizData.c;
     d_answer.innerText = currentQuizData.d;
 
-    currentQuestion++
+    // currentQuestion++;
 }
+
+
+submitButton.addEventListener('click', () => {
+    currentQuiz++ 
+    loadQuiz();
+});
+
+// if score => certain number then innerHTML = BLah Blah. if not then blah blah
