@@ -108,6 +108,7 @@ function loadQuiz(){
     // currentQuestion++;
 }
 
+function answer
 
 submitButton.addEventListener('click', () => {
     currentQuiz++ 
