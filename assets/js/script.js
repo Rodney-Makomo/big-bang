@@ -5,7 +5,7 @@ const dataQuiz = [
         a: '4 September 2012',
         b: '24 September 2009',
         c: '17 September 2011',
-        d: '24 Septmeber 2007',
+        d: '24 September 2007',
         correct: 'd'
     }, {
         question: 'In which season did Raj get over his anxiety of speaking to girls?',
@@ -97,7 +97,7 @@ loadQuiz();
 
 function loadQuiz(){
     const currentQuizData = dataQuiz[currentQuiz];
-
+    resetAns();
     questionElement.innerText = currentQuizData.question;
     
     a_answer.innerText = currentQuizData.a;
@@ -108,11 +108,43 @@ function loadQuiz(){
     // currentQuestion++;
 }
 
-function answer
+// tells quiz that answer is required
+function answerRequired(){
+    let answer = undefined;
+    quizAns.forEach((quizAnsEl) => {
+        if (quizAnsEl.checked){
+            answer = quizAnsEl.id;
+        }
+    });
+    return answer;
+}
 
+// resets the quiz answers
+function resetAns(){
+    quizAns.forEach((quizAnsEl) =>{
+        quizAnsEl.checked = false;
+    });
+}
+
+//submits the chosen answer/s
 submitButton.addEventListener('click', () => {
+    const answer = answerRequired();
+
+    if (answer) {
+        if (answer === dataQuiz[currentQuiz].correct){
+            score++
+        }
+    }
     currentQuiz++ 
-    loadQuiz();
-});
+    if (currentQuiz < dataQuiz.length){
+        loadQuiz();
+    } else {
+        // restart button & score
+        quiz.innerHTML = `
+        <h2>Wow, you answered an astonishing ${score} out of ${dataQuiz.length} correctly.</h2>
+        <button onclick="location.reload()">Click here to start again</button>
+        `
+    }
+})
 
 // if score => certain number then innerHTML = BLah Blah. if not then blah blah
