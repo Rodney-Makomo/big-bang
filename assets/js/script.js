@@ -114,6 +114,9 @@ function answerRequired(){
     quizAns.forEach((quizAnsEl) => {
         if (quizAnsEl.checked){
             answer = quizAnsEl.id;
+        } else {
+            // continue from here TO DO make it that it IS checked
+            submitButton.addEventListener(alert("You need to select an answer before moving on"));
         }
     });
     return answer;
@@ -134,7 +137,6 @@ submitButton.addEventListener('click', () => {
         if (answer === dataQuiz[currentQuiz].correct){
             score++
         }
-    }
     currentQuiz++ 
     if (currentQuiz < dataQuiz.length){
         loadQuiz();
@@ -144,7 +146,8 @@ submitButton.addEventListener('click', () => {
         <h2>Wow, you answered an astonishing ${score} out of ${dataQuiz.length} correctly.</h2>
         <button onclick="location.reload()">Click here to start again</button>
         `
+      } 
     }
-})
+});
 
 // if score => certain number then innerHTML = BLah Blah. if not then blah blah
