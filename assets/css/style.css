@@ -11,6 +11,30 @@ body{
     justify-content: center;
 }
 
+/*image container styling*/
+.image_cont{
+    background: #b2beb5;
+    width: 600px;
+    border-radius: 7.5px;
+    max-width: 100%;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0.3rem;
+    box-shadow: 5px 0 5px 5px rgb(153, 150, 150);
+    overflow: hidden;
+}
+
+.image{
+    width:100%;
+    overflow: hidden;
+    max-height: 100vh;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 7.5px;
+}
+
 /*Quiz container styling*/
 .quiz-container{
     background-color: #fff;
