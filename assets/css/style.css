@@ -64,6 +64,10 @@ ul li{
     font-size: 1rem;
 }
 
+ul li label{
+    cursor: pointer;
+}
+
 /*Submit button styling*/
 #submit-button, #reloadButton{
     color: #fff;
@@ -84,4 +88,72 @@ ul li{
 /*Styling for the score div at the end*/
 .reloadDiv{
     height:150px;
+}
+
+/* Media queries */
+@media screen and (max-width:992px){
+    .reloadDiv{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reloadDiv{
+        height: 250px;
+    }
+
+    .quiz-body{
+        padding: 0.3rem;
+    }
+}
+
+@media screen and (max-width:720px){
+    .image_cont{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .reloadDiv{
+        height: 160px;
+    }
+
+    .image_cont{
+        display: none;
+    }
+
+    .quiz-body{
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width:425px){
+    .reloadDiv{
+        height: 260px;
+    }
+
+    .quiz-body{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:375px){
+    h2{
+        width: 100%;
+        padding: 1px;
+    }
+
+    .quiz-body{
+        padding: 1rem;
+    }
+
+    .reloadDiv{
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .reloadDiv{
+        height: 270px;
+    }
 }

@@ -147,5 +147,3 @@ submitButton.addEventListener('click', () => {
       } 
     }
 });
-
-// if score => certain number then innerHTML = BLah Blah. if not then blah blah
