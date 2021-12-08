@@ -114,9 +114,6 @@ function answerRequired(){
     quizAns.forEach((quizAnsEl) => {
         if (quizAnsEl.checked){
             answer = quizAnsEl.id;
-        } else {
-            // continue from here TO DO make it that it IS checked
-            submitButton.addEventListener(alert("You need to select an answer before moving on"));
         }
     });
     return answer;
@@ -143,8 +140,9 @@ submitButton.addEventListener('click', () => {
     } else {
         // restart button & score
         quiz.innerHTML = `
-        <h2>Wow, you answered an astonishing ${score} out of ${dataQuiz.length} correctly.</h2>
-        <button onclick="location.reload()">Click here to start again</button>
+        <h2 class="reloadDiv">Wow, you answered an astonishing ${score} out of ${dataQuiz.length} correctly.
+        If your score is 8+ then we award you a *fake* doctorate in everything Big Bang Theory. Sheldon would be proud.</h2>
+        <button id="reloadButton" onclick="location.reload()">Click here to start again</button>
         `
       } 
     }
