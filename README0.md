@@ -23,6 +23,10 @@ What this project isn't good at and could improve on is the longevity of it as c
  - Gitpod
 
  ## Testing
+ This was the result of my HTML test on the W3C validator. As you can see my HTML code passed with flying colours.
+![](assets/images/HTML%20Check.JPG)
+
+
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -32,7 +36,8 @@ What this project isn't good at and could improve on is the longevity of it as c
 </p>
 
 I ran into an issue when deploying my site as I was getting an error 404. The site was unreachable and I had to troubleshoot this problem.
-![](assets/images/) 
+![](assets/images/Problem%20deploying.JPG) 
+
 
 ## Contributors
 Rodney Makomo - rodneymakomo@gmail.com
