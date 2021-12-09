@@ -31,5 +31,8 @@ What this project isn't good at and could improve on is the longevity of it as c
     </a>
 </p>
 
+I ran into an issue when deploying my site as I was getting an error 404. The site was unreachable and I had to troubleshoot this problem.
+![](assets/images/) 
+
 ## Contributors
 Rodney Makomo - rodneymakomo@gmail.com
