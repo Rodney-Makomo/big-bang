@@ -22,5 +22,14 @@ What this project isn't good at and could improve on is the longevity of it as c
  - Github
  - Gitpod
 
+ ## Testing
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
 ## Contributors
 Rodney Makomo - rodneymakomo@gmail.com
