@@ -28,8 +28,6 @@ What this project isn't good at and could improve on is the longevity of it as c
  This was the result of my HTML test on the W3C validator. As you can see my HTML code passed with flying colours.
 ![](assets/images/HTML%20Check.JPG)
 
-
-
 I tested out the responsiveness of my site on ami.responsivedesign.is/ and initially everything works as expected.
 ![](assets/images/AmIResponsive.JPG)
 
