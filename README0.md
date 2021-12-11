@@ -12,7 +12,6 @@ The quiz features questions relating to scenes and moments from all 12 seasons. 
 This project came to life because as a long time fan of The TV show 'The Big Bang Theory' I was missing it and missing some of the wonderful characters that were presented to us when the show was airing. From main characters like Sheldon to side characters like Howard, all their personalities were unique to say the least and they definitely left a lasting impression on me and I know that I won't have been the only one.
 
 ## Features
-
 This project utilizes for loops and if statements to build and progress the quiz. The structure of the quiz is set out in a div in HTML and then javascript is used to loop an array that contains the questions and answers. At the end of the quiz your score is calculated and presented to the end user. Alongside the quiz, an image accompanies the div container. This was done to add a bit more life to the site as it was a bit lifeless just being the quiz container.
 ![](assets/images/bigbang.JPG)
 
