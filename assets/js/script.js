@@ -132,9 +132,9 @@ submitButton.addEventListener('click', () => {
 
     if (answer) {
         if (answer === dataQuiz[currentQuiz].correct){
-            score++
+            score++;
         }
-    currentQuiz++ 
+    currentQuiz++;
     if (currentQuiz < dataQuiz.length){
         loadQuiz();
     } else {
@@ -143,7 +143,7 @@ submitButton.addEventListener('click', () => {
         <h2 class="reloadDiv">Wow, you answered an astonishing ${score} out of ${dataQuiz.length} correctly.
         If your score is 8+ then we award you a *fake* doctorate in everything Big Bang Theory. Sheldon would be proud.</h2>
         <button id="reloadButton" onclick="location.reload()">Click here to start again</button>
-        `
-      } 
+        `;
+      }
     }
 });

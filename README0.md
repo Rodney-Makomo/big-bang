@@ -1,5 +1,6 @@
 # Big Bang Quiz
-<!-- URL here -->
+https://rodney-makomo.github.io/big-bang/
+
 By Rodney Makomo, 2021
 **Version 1.0.0**
 
@@ -33,6 +34,8 @@ What this project isn't good at and could improve on is the longevity of it as c
 I tested out the responsiveness of my site on ami.responsivedesign.is/ and initially everything works as expected.
 ![](assets/images/AmIResponsive.JPG)
 
+I checked my javascript code on jshint.com and confirmed that there were no significant issues.
+
 I confirmed that this projects is responsive looks good on on various screensizes. I did this by using the devtools device toolbar and also used my own personal iPad and iPhone X to confirm this.
 
 No errors were found when passing the officiaal Jigsaw validator.
@@ -49,7 +52,7 @@ I tested my site on Opera, MS Edge and Google chrome to confirm that my site wor
 
 To deploy the site, I used the github pages tab on Github and built it from the main branch. After approximately 20 minutes my site was up and running.
 
-I ran into an issue when deploying my site as I was getting an error 404. The site was unreachable and I had to troubleshoot this problem. I solved this when i figured out it was becuase my websites had not been finished being built.
+I ran into an issue when deploying my site as I was getting an error 404. The site was unreachable and I had to troubleshoot this problem. I solved this when I figured out it was becuase my website had not been finished being built.
 ![](assets/images/Problem%20deploying.JPG) 
 
 ## Credits
