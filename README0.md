@@ -10,10 +10,13 @@ The quiz features questions relating to scenes and moments from all 12 seasons. 
 
 This project came to life because as a long time fan of The TV show 'The Big Bang Theory' I was missing it and missing some of the wonderful characters that were presented to us when the show was airing. From main characters like Sheldon to side characters like Howard, all their personalities were unique to say the least and they definitely left a lasting impression on me and I know that I won't have been the only one.
 
+## Features
+
+This project utilizes for loops and if statements to build and progress the quiz. The structure of the quiz is set out in a div in HTML and then javascript is used to loop an array that contains the questions and answers. At the end of the quiz your is calculated and presented to the end user. Alongside the quiz, an image accompanies the div container. This was done to add a bit more life to the site as it was a bit lifeless just being the quiz container.
+![](assets/images/bigbang.JPG)
+
 ## Areas for improvement
 What this project isn't good at and could improve on is the longevity of it as currently, it only contains a set number of questions and once completed you'll be able guess the ones you got wrong. I challenege someone out there to try and get 100% on this project. I could improve this project by adding more wuestions or adding another aray of question then using a function to randomly choose a set number of questions. This would decrease the predictability of this quiz.
-
-
 
 ## Languages and technologies used
  - Javascript
@@ -22,7 +25,6 @@ What this project isn't good at and could improve on is the longevity of it as c
  - Github
  - Gitpod
 
- <!-- write how this project utilises loops and if statements  -->
 
  ## Validator Testing
  This was the result of my HTML test on the W3C validator. As you can see my HTML code passed with flying colours.
@@ -31,14 +33,9 @@ What this project isn't good at and could improve on is the longevity of it as c
 I tested out the responsiveness of my site on ami.responsivedesign.is/ and initially everything works as expected.
 ![](assets/images/AmIResponsive.JPG)
 
-I confirmed that this projects is responsive looks good on omvaious screensizes. I did this by using the devtools device toolbar and also used my own personal iPad and iPhone X to confirm this.
+I confirmed that this projects is responsive looks good on on various screensizes. I did this by using the devtools device toolbar and also used my own personal iPad and iPhone X to confirm this.
 
-## Deployment
-I tested my site on Opera, MS Edge and Google chrome to confirm that my site works.
-
-To deploy the site, I used the github pages tab on Github and built it from the main branch. After approximately 20 minutes my site was up and running.
-
-
+No errors were found when passing the officiaal Jigsaw validator.
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -47,9 +44,17 @@ To deploy the site, I used the github pages tab on Github and built it from the 
     </a>
 </p>
 
+## Deployment
+I tested my site on Opera, MS Edge and Google chrome to confirm that my site works.
+
+To deploy the site, I used the github pages tab on Github and built it from the main branch. After approximately 20 minutes my site was up and running.
+
 I ran into an issue when deploying my site as I was getting an error 404. The site was unreachable and I had to troubleshoot this problem. I solved this when i figured out it was becuase my websites had not been finished being built.
 ![](assets/images/Problem%20deploying.JPG) 
 
+## Credits
+w3schools - Syntax purposes
+Slack - to generate ideas of what to build.
 
 ## Contributors
 Rodney Makomo - rodneymakomo@gmail.com
